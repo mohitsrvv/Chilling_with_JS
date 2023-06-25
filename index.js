@@ -632,5 +632,42 @@ console.log(total);         */
 //-----------------------------------------------------------------------------------------------------//
 
 
-// CWH
+// **CWH**
 
+// JAVASCRIPT CONSOLE API
+// console.log("hello world");
+// document.write("this is document write");
+// console.warn("this is a warning");
+// console.error("this is an error");
+
+
+// VARIABLES => containers to store data values
+// var number1 = 44;
+// var number2 = 45;
+// console.log(number1+number2);
+
+// DATATYPES
+var num1 = 33;
+var str1 = "this is a string";
+var str2 = 'this is also a string';
+
+// objects
+var marks = {
+    john : 33,
+    katie : 55,
+    smith : 66
+}
+// console.log(marks);
+
+// BOOLEANS => true or false
+
+/*
+there are two type of datatypes in javascript
+1. primitive datatypes : undefined, null, number, string, boolean, symbol
+2. reference datatypes : arrays and objects
+*/
+
+// ARRAYS
+
+var arr = [1,2,45,6];
+// console.log(arr);
