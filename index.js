@@ -671,3 +671,123 @@ there are two type of datatypes in javascript
 
 var arr = [1,2,45,6];
 // console.log(arr);
+
+
+// OPERATORS
+
+// arthemetic operators + - * /
+var a = 33;
+var b = 10;
+// console.log("the value of a + b is",a+b);
+
+
+// FUNCTIONS
+
+function avg(a, b){
+    return (a + b)/2;
+}
+c = avg(2, 5);
+// console.log(c);
+
+
+// CONDTIONALS
+
+var age = 80;
+if(age >= 80){
+    // console.log("you are old")
+} else {
+    // console.log("you have to live")
+}
+
+
+// LOOPS
+
+// var arr = [1,2,4,5,3,53,32,2,52,4]
+// console.log(arr)
+// for(var i=0;i<arr.length;i++){
+//     if(i==2){
+//         // break;
+//         continue;
+//     }
+//     console.log(arr[i]);
+// }
+
+// arr.forEach(function(element){
+    // console.log(element)
+// })
+
+// let j = 0;
+// while(j < arr.length){
+//     console.log(arr[j]);
+//     j++;
+// }
+
+
+// do{
+//     console.log(arr[j]);
+//     j++;
+// }while(j<arr.length)
+
+
+
+// let myDate = new Date();
+// console.log(myDate);
+
+
+// DOM Manipulation
+
+// let elem = document.getElementById('click');
+// console.log(elem);
+
+// let elemClass = document.getElementsByClassName('container');
+// console.log(elemClass);
+
+
+// EVENTS
+
+// function clicked(){
+//     console.log("the button was clicked")
+// }
+
+// window.onload = function(){
+//     console.log("the document was loaded")
+// }
+
+// firstContainer.addEventListener('click', function(){
+//     console.log('clicked on container')
+// })
+///mouseout, mouseover
+
+
+// ARROW FUNCTIONS
+// function add(a,b){
+//     return a+b;
+// }
+
+// add = (a,b) => {
+//     return a+b;
+// }
+
+
+// setTimeOut and setInterval
+login = () => {
+    console.log("im your log")
+}
+// setTimeout(login, 1000);
+// setInterval(login, 2000);
+
+
+
+// localStorage
+
+// localStorage.setItem('name', 'lucifer');
+// localStorage
+// localStorage.getItem('name')
+
+
+// JSON => javascript object notation
+
+obj = {"name":"lucifer", "length":1}
+jso = JSON.stringify(obj)
+console.log(obj)
+console.log(jso)
