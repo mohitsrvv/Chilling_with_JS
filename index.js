@@ -787,7 +787,10 @@ login = () => {
 
 // JSON => javascript object notation
 
-obj = {"name":"lucifer", "length":1}
-jso = JSON.stringify(obj)
-console.log(obj)
-console.log(jso)
+// obj = {"name":"lucifer", "length":1}
+// jso = JSON.stringify(obj)
+// console.log(obj)
+// console.log(jso)
+
+
+
